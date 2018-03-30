@@ -1,0 +1,14 @@
+Microsoft:
+Application ID
+09fd37bb-2636-4789-b900-06b3905fb21a
+
+yjyUJTV}#}@obwtUXG44214
+
+
+Google:
+Client ID
+562846353601-q42ietdu46dl9rnivqqr6en78dtv11jp.apps.googleusercontent.com
+
+Client Secret
+
+sCI4iPjAGB6W4GsJJ61D1SXr
