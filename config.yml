@@ -1,0 +1,77 @@
+title: BITS-Wiki
+host: 'http://localhost:3000'
+port: 3000
+paths:
+  repo: ./repo
+  data: ./data
+uploads:
+  maxImageFileSize: 3
+  maxOtherFileSize: 100
+lang: en
+langRtl: false
+public: true
+auth:
+  defaultReadAccess: true
+  local:
+    enabled: true
+  google:
+    enabled: true
+    clientId: 562846353601-q42ietdu46dl9rnivqqr6en78dtv11jp.apps.googleusercontent.com
+    clientSecret: sCI4iPjAGB6W4GsJJ61D1SXr
+  microsoft:
+    enabled: true
+    clientId: 09fd37bb-2636-4789-b900-06b3905fb21a
+    clientSecret: yjyUJTV}#}@obwtUXG44214
+  facebook:
+    enabled: false
+    clientId: FACEBOOK_APP_ID
+    clientSecret: FACEBOOK_APP_SECRET
+  github:
+    enabled: false
+    clientId: GITHUB_CLIENT_ID
+    clientSecret: GITHUB_CLIENT_SECRET
+  slack:
+    enabled: false
+    clientId: SLACK_CLIENT_ID
+    clientSecret: SLACK_CLIENT_SECRET
+  ldap:
+    enabled: false
+    url: 'ldap://serverhost:389'
+    bindDn: cn='root'
+    bindCredentials: BIND_PASSWORD
+    searchBase: 'o=users,o=example.com'
+    searchFilter: '(uid={{username}})'
+    tlsEnabled: false
+    tlsCertPath: 'C:\example\root_ca_cert.crt'
+  azure:
+    enabled: false
+    clientId: APP_ID
+    clientSecret: APP_SECRET_KEY
+    resource: 00000002-0000-0000-c000-000000000000
+    tenant: YOUR_TENANT.onmicrosoft.com
+  oauth2:
+    enabled: false
+    clientId: OAUTH2_CLIENT_ID
+    clientSecret: OAUTH2_CLIENT_SECRET
+    authorizationURL: OAUTH2_AUTH_URL
+    tokenURL: OAUTH2_TOKEN_URL
+sessionSecret: a9925342991b580e46ee34b6fed3d7543ec50cb78e1f21f6c462c26f2291a6f5
+db: 'mongodb://localhost:27017/wiki'
+git: false
+features:
+  linebreaks: true
+  mathjax: true
+externalLogging:
+  bugsnag: false
+  loggly: false
+  papertrail: false
+  rollbar: false
+  sentry: false
+theme:
+  primary: indigo
+  alt: blue-grey
+  viewSource: all
+  footer: blue-grey
+  code:
+    dark: true
+    colorize: true
